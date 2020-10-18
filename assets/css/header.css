@@ -1,0 +1,60 @@
+#header {
+  display: flex;
+  position: sticky;
+  background-color: #efeded;
+  top: 0;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3px 10px;
+  border-bottom: 1px solid #e0dcdc; }
+  #header a {
+    text-decoration: none;
+    color: #e76565; }
+
+input {
+  padding: 2px 5px;
+  font-size: 1.1rem;
+  width: 18rem; }
+
+input:focus {
+  outline: none; }
+
+input::placeholder {
+  text-align: center; }
+
+#profile {
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+  position: relative; }
+  #profile img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%; }
+  #profile .visible {
+    display: none; }
+
+.dropdown {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 3.1rem;
+  right: -1.5rem;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e0dede;
+  padding: 10px 25px; }
+  .dropdown #profile-btn a {
+    text-decoration: none;
+    color: blue;
+    font-size: 1.1rem; }
+  .dropdown #settings {
+    margin-top: 10px; }
+    .dropdown #settings a {
+      text-decoration: none;
+      color: blue;
+      font-size: 1.1rem; }
+  .dropdown #logout {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: red; }
